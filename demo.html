@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LED按钮</title>
+</head>
+<body>
+    <button onmousedown="sw('on')">开灯</button>
+    <button onmousedown="sw('off')">关灯</button>
+    <script>
+        let xhttp=new XMLHttpRequest();
+        function sw(arg){
+            xhttp.open('GET','/sw?led='+arg,false);
+            xhttp.send()
+        }
+    </script>
+</body>
+</html>
