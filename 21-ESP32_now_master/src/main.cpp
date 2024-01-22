@@ -1,13 +1,13 @@
 #include <Arduino.h>
 #include <WiFi.h>
+// ESPnow从机 MAC地址48:31:B7:3F:41:D8
 
-#define LEDPIN 8
-void setup() {
-  pinMode(LEDPIN,OUTPUT);
-  digitalWrite(LEDPIN,LOW);
+void setup()
+{
+  
 }
 
-void loop() {
-
-}
-
+void loop()
+{
+    
+}   
