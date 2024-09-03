@@ -1,0 +1,19 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "esp-ai": "^1.14.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node ./index.js",
+    "start:pm2": "pm2 start ./index.js -i max"
+  },
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18"
+  }
+}
